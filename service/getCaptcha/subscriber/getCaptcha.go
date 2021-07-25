@@ -1,0 +1,13 @@
+package subscriber
+
+type GetCaptcha struct{}
+
+//func (e *GetCaptcha) Handle(ctx context.Context, msg *getCaptcha.Message) error {
+//	log.Log("Handler Received message: ", msg.Say)
+//	return nil
+//}
+//
+//func Handler(ctx context.Context, msg *getCaptcha.Message) error {
+//	log.Log("Function Received message: ", msg.Say)
+//	return nil
+//}
