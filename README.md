@@ -23,7 +23,7 @@
    - proto                ## proto文件
    - test                  ## 测试代码
    - utils                  ## 工具方法
-   - view                 ## 前端资源
+   - view                 ## 视图资源
    - main.go
 
 
