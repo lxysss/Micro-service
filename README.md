@@ -9,13 +9,13 @@
 ## 代码结构
 
  - service                     ## 服务端
-   - getCaptcha       ##   验证码相关微服务
+   - user       ##   登录及个人信息微服务
      - handler       ##  处理逻辑
      - model         ## 数据库操作
      - proto          ## proto文件
      - main.go
      - Makefile
-   - user                  ##  登录及个人信息微服务(结构同上)
+   - getCaptcha                  ##  验证码微服务(结构同上)
  - web                         ## 客户端
    - conf                  ## 相关文件
    - controller          ## 控制器
