@@ -10,7 +10,7 @@
 
  - service                     ## 服务端
    - user       ##   登录及个人信息微服务
-     - handler       ##  处理逻辑
+     - handler       ##  逻辑处理
      - model         ## 数据库操作
      - proto          ## proto文件
      - main.go
@@ -21,7 +21,7 @@
    - controller          ## 控制器
    - model               ## 部分数据库操作
    - proto                ## proto文件
-   - test                  ## 测试代码
+   - test                  ## 测试
    - utils                  ## 工具方法
    - view                 ## 视图资源
    - main.go
